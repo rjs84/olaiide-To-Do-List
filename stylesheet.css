@@ -1,0 +1,108 @@
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: linear-gradient(to left, yellow 50%, red 30%);
+    font-size:  30px;
+}
+.--form{
+    font-size: 30px;
+}
+.to-do{
+    font-size: 28px;
+    margin: 8px;
+    position: relative;
+    left: 12px;
+}
+.input{
+    font-size: 15px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid blanchedalmond;
+    padding: 6px;
+    border-radius : 7px;
+    position: relative;
+    left: 20px;
+}
+input[value]{
+    font-size: 20px;
+    width: 55px;
+    position: relative;
+    left: 8px;
+    top: 1px;
+}
+.btn{
+    font-size: 28px;
+    border-radius: 7px;
+    width: 70px;
+    outline: none;
+    margin: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+.--submit:focus{
+  outline: none;
+}
+
+.--h1{
+    font-size: 25px;
+    margin: 14px;
+    position: relative;
+    left: 4px;
+}
+.lists{
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.lists li{
+    position: relative;
+    cursor: pointer;
+    padding: 10px, 5px, 10px, 5px;
+    font-size: 1.0rem;
+    left: 13px;
+}
+.main-body{
+    background : linear-gradient(-45deg, #e66465, #464b85);
+    display: block;
+    padding: 20px;
+    height: 1000px;
+}
+.delete {
+    font-weight: 800;
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    top: -1px;
+    padding: 2px;
+}
+.items{
+    line-height: 15px;
+    border : 1px solid blue;
+    border-radius : 10px;
+    margin: 5px;
+    padding: 8px;
+    width: 85%;
+    background: whitesmoke;
+    font-size: 10px;
+}
+ .completed{
+    text-decoration: line-through;
+    background-color: cornsilk;
+    opacity: 0.4;
+}
+
+.hide {
+	display: none;
+}
+
+#no-data-message {
+	color: #fff;
+	padding-left: 18px;
+}
